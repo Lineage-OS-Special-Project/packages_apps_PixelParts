@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023-2024 The Evolution X Project
+     Copyright (C) 2023-2024 The LOSP Project
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -13,7 +13,7 @@
         android:layout="@layout/image_preview_layout"
         android:selectable="false" />
 
-    <org.evolution.pixelparts.CustomSeekBarPreference
+    <org.losp.pixelparts.CustomSeekBarPreference
         android:key="saturation"
         android:max="200"
         android:min="0"

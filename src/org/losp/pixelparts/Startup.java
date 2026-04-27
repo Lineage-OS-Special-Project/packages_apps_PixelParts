@@ -1,24 +1,24 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts;
+package org.losp.pixelparts;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.evolution.pixelparts.autohbm.AutoHbmActivity;
-import org.evolution.pixelparts.autohbm.AutoHbmFragment;
-import org.evolution.pixelparts.autohbm.AutoHbmTileService;
-import org.evolution.pixelparts.pixeltorch.PixelTorchActivity;
-import org.evolution.pixelparts.pixeltorch.PixelTorchFragment;
-import org.evolution.pixelparts.pixeltorch.PixelTorchButtonService;
-import org.evolution.pixelparts.pixeltorch.PixelTorchTileService;
-import org.evolution.pixelparts.saturation.SaturationFragment;
-import org.evolution.pixelparts.utils.ComponentUtils;
-import org.evolution.pixelparts.utils.FileUtils;
+import org.losp.pixelparts.autohbm.AutoHbmActivity;
+import org.losp.pixelparts.autohbm.AutoHbmFragment;
+import org.losp.pixelparts.autohbm.AutoHbmTileService;
+import org.losp.pixelparts.pixeltorch.PixelTorchActivity;
+import org.losp.pixelparts.pixeltorch.PixelTorchFragment;
+import org.losp.pixelparts.pixeltorch.PixelTorchButtonService;
+import org.losp.pixelparts.pixeltorch.PixelTorchTileService;
+import org.losp.pixelparts.saturation.SaturationFragment;
+import org.losp.pixelparts.utils.ComponentUtils;
+import org.losp.pixelparts.utils.FileUtils;
 
 public class Startup extends BroadcastReceiver {
 

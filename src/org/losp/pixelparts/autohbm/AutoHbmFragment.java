@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.autohbm;
+package org.losp.pixelparts.autohbm;
 
 import android.content.Context;
 import android.content.Intent;
@@ -29,10 +29,10 @@ import androidx.preference.PreferenceManager;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.UsageProgressBarPreference;
 
-import org.evolution.pixelparts.Constants;
-import org.evolution.pixelparts.CustomSeekBarPreference;
-import org.evolution.pixelparts.R;
-import org.evolution.pixelparts.utils.TileUtils;
+import org.losp.pixelparts.Constants;
+import org.losp.pixelparts.CustomSeekBarPreference;
+import org.losp.pixelparts.R;
+import org.losp.pixelparts.utils.TileUtils;
 
 public class AutoHbmFragment extends PreferenceFragmentCompat
         implements OnCheckedChangeListener, SensorEventListener, Preference.OnPreferenceChangeListener {

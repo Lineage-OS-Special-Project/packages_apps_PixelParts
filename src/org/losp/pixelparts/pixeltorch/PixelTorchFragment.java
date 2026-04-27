@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.pixeltorch;
+package org.losp.pixelparts.pixeltorch;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,9 +19,9 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.pixelparts.Constants;
-import org.evolution.pixelparts.R;
-import org.evolution.pixelparts.utils.TileUtils;
+import org.losp.pixelparts.Constants;
+import org.losp.pixelparts.R;
+import org.losp.pixelparts.utils.TileUtils;
 
 public class PixelTorchFragment extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023-2024 The Evolution X Project
+# Copyright (C) 2023-2024 The LOSP Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

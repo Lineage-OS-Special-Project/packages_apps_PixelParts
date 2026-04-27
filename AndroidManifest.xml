@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023-2024 The Evolution X Project
+     Copyright (C) 2023-2024 The LOSP Project
      SPDX-License-Identifier: Apache-2.0
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           android:sharedUserId="android.uid.system"
-          package="org.evolution.pixelparts"
+          package="org.losp.pixelparts"
           android:versionCode="2"
           android:versionName="2.0" >
 

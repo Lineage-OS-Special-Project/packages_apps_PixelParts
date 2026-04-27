@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-package org.evolution.pixelparts;
+package org.losp.pixelparts;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -14,10 +14,10 @@ import android.provider.Settings;
 import android.service.quicksettings.TileService;
 import android.util.Log;
 
-import org.evolution.pixelparts.autohbm.AutoHbmActivity;
-import org.evolution.pixelparts.autohbm.AutoHbmTileService;
-import org.evolution.pixelparts.pixeltorch.PixelTorchActivity;
-import org.evolution.pixelparts.pixeltorch.PixelTorchTileService;
+import org.losp.pixelparts.autohbm.AutoHbmActivity;
+import org.losp.pixelparts.autohbm.AutoHbmTileService;
+import org.losp.pixelparts.pixeltorch.PixelTorchActivity;
+import org.losp.pixelparts.pixeltorch.PixelTorchTileService;
 
 public final class TileHandlerActivity extends Activity {
     private static final String TAG = "TileHandlerActivity";

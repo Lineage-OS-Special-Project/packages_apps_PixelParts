@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2024 The Evolution X Project
+ * Copyright (C) 2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.utils;
+package org.losp.pixelparts.utils;
 
 import android.app.StatusBarManager;
 import android.content.ComponentName;
@@ -11,7 +11,7 @@ import android.content.Context;
 import android.graphics.drawable.Icon;
 import android.widget.Toast;
 
-import org.evolution.pixelparts.R;
+import org.losp.pixelparts.R;
 
 public class TileUtils {
 

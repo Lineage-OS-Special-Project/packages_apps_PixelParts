@@ -1,15 +1,15 @@
 /*
- * Copyright (C) 2024 The Evolution X Project
+ * Copyright (C) 2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.pixeltorch;
+package org.losp.pixelparts.pixeltorch;
 
 import android.content.SharedPreferences;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
 
-import org.evolution.pixelparts.Constants;
+import org.losp.pixelparts.Constants;
 
 public class PixelTorchHelper {
 

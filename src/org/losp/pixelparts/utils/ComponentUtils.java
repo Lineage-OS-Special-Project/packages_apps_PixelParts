@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.utils;
+package org.losp.pixelparts.utils;
 
 import android.content.ComponentName;
 import android.content.Context;

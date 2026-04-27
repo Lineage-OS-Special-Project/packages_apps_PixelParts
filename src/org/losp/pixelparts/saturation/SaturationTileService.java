@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.saturation;
+package org.losp.pixelparts.saturation;
 
 import android.app.PendingIntent;
 import android.content.Intent;

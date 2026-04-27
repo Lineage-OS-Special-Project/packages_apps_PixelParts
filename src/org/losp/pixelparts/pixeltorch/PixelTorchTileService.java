@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.pixeltorch;
+package org.losp.pixelparts.pixeltorch;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,8 +13,8 @@ import android.service.quicksettings.TileService;
 
 import androidx.preference.PreferenceManager;
 
-import org.evolution.pixelparts.Constants;
-import org.evolution.pixelparts.R;
+import org.losp.pixelparts.Constants;
+import org.losp.pixelparts.R;
 
 public class PixelTorchTileService extends TileService {
 

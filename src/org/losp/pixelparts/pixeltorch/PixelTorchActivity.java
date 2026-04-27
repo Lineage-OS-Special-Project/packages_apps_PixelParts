@@ -1,23 +1,23 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.saturation;
+package org.losp.pixelparts.pixeltorch;
 
 import android.os.Bundle;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-public class SaturationActivity extends CollapsingToolbarBaseActivity {
+public class PixelTorchActivity extends CollapsingToolbarBaseActivity {
 
-    private static final String TAG = "Saturation";
+    private static final String TAG = "PixelTorch";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         getSupportFragmentManager().beginTransaction().replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new SaturationFragment(), TAG).commit();
+                new PixelTorchFragment(), TAG).commit();
     }
 }

@@ -1,4 +1,4 @@
-package org.evolution.pixelparts.autohbm;
+package org.losp.pixelparts.autohbm;
 
 import android.app.KeyguardManager;
 import android.app.Service;
@@ -19,8 +19,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import org.evolution.pixelparts.Constants;
-import org.evolution.pixelparts.utils.FileUtils;
+import org.losp.pixelparts.Constants;
+import org.losp.pixelparts.utils.FileUtils;
 
 public class AutoHbmService extends Service {
 

@@ -1,10 +1,10 @@
 /*
  * Copyright (C) 2023 Cyb3rKo
- *               2024 The Evolution X Project
+ *               2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.pixeltorch;
+package org.losp.pixelparts.pixeltorch;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.Context;

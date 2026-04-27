@@ -1,4 +1,4 @@
-![example](https://raw.githubusercontent.com/Evolution-XYZ-Devices/packages_apps_PixelParts/udc/readme_resources/PixelParts.png)
+![example](https://raw.githubusercontent.com/losp-XYZ-Devices/packages_apps_PixelParts/udc/readme_resources/PixelParts.png)
 
 ## Current features
 
@@ -13,19 +13,19 @@
 - Clone this repository to packages/apps/PixelParts directory in your AOSP build tree:
 
 ```
-croot && git clone https://github.com/Evolution-X-Devices/packages_apps_PixelParts packages/apps/PixelParts
+croot && git clone https://github.com/losp-X-Devices/packages_apps_PixelParts packages/apps/PixelParts
 ```
 
 - Include the app during compilation by adding the following to device-*.mk:
 
-[Commit 1/1 (device tree)](https://github.com/Evolution-X-Devices/device_google_bluejay/commit/6822dabe27de84fb7d52e85cb34d9a71c14d1112)
+[Commit 1/1 (device tree)](https://github.com/losp-X-Devices/device_google_bluejay/commit/6822dabe27de84fb7d52e85cb34d9a71c14d1112)
 
 ```
 # PixelParts
 include packages/apps/PixelParts/device.mk
 ```
 
-This line includes the [device.mk](https://github.com/Evolution-XYZ-Devices/packages_apps_PixelParts/blob/udc/device.mk) file from the PixelParts repository, which will add the PixelParts application, its initialization script (init.rc), and the necessary security policies (sepolicies) to your AOSP build during compilation.
+This line includes the [device.mk](https://github.com/losp-XYZ-Devices/packages_apps_PixelParts/blob/udc/device.mk) file from the PixelParts repository, which will add the PixelParts application, its initialization script (init.rc), and the necessary security policies (sepolicies) to your AOSP build during compilation.
 
 ## Testing changes
 

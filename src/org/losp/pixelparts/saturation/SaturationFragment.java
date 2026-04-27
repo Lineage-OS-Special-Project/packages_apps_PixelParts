@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-2024 The Evolution X Project
+ * Copyright (C) 2023-2024 The LOSP Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.saturation;
+package org.losp.pixelparts.saturation;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -27,10 +27,10 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.android.settingslib.widget.LayoutPreference;
 
-import org.evolution.pixelparts.Constants;
-import org.evolution.pixelparts.CustomSeekBarPreference;
-import org.evolution.pixelparts.R;
-import org.evolution.pixelparts.utils.TileUtils;
+import org.losp.pixelparts.Constants;
+import org.losp.pixelparts.CustomSeekBarPreference;
+import org.losp.pixelparts.R;
+import org.losp.pixelparts.utils.TileUtils;
 
 import java.util.Arrays;
 

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.pixelparts.utils;
+package org.losp.pixelparts.utils;
 
 import android.content.Context;
 
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-import org.evolution.pixelparts.R;
+import org.losp.pixelparts.R;
 
 import android.util.Log;
 
